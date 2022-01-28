@@ -22,8 +22,7 @@ class MySnail extends StatelessWidget {
           height: 100,
           width: 100,
           child: Image(
-            image:
-                AssetImage("Sprites/snail" + snailSprite.toString() + ".png"),
+            image: AssetImage("Sprites/bird" + snailSprite.toString() + ".png"),
           )),
     );
   }
